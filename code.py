@@ -49,7 +49,7 @@ def count(bot, update, args):
     bot.sendMessage(chat_id=chat_id, text=abcde)
 
 def main():
-    updater = Updater('984743753:AAH5eQx4k4E6KEhMjIGua_pmplwkV7U6klo')
+    updater = Updater('your bot token here')
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('repo',available_repos))
     dp.add_handler(CommandHandler('count',count, pass_args=True))
