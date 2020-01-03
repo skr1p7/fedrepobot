@@ -29,5 +29,11 @@ $ pip3 install -r requirements.txt
 python3 code.py
 ```
 
+## Sample Images
+
+![image1](a.jpg)
+![image2](b.jpg)
+![image3](c.jpg)
+
 **Contact developer here**
 [Twitter](https://twitter.com/0xskr1p7)
